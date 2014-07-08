@@ -25,7 +25,7 @@ function largestPrimeFactor(num) {
 			return num;
 		}
 		else if(num % i === 0) {
-			if(isPrime(num)) {
+			if(isPrime(i)) {
 				return i;
 			}
 		}
